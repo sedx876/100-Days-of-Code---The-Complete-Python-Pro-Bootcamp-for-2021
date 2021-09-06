@@ -33,7 +33,7 @@ dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines",
                "Apples", "Grapes", "Peaches", "Cherries", "Pears",
                "Tomatoes", "Celery", "Potatoes"]
 
-names_string = input("Give me everybody's names, seperated by a comma. ")
+names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 num_items = len(names)
 random_choice = random.randint(0, num_items - 1)
